@@ -11,7 +11,7 @@ SETHEADING: float = 0.0
 class TurtleImpl:
     def __init__(self):
         self.turtle = Turtle()
-        self.color = "black"
+        self.set_color = 
 
         colormode(255)
 
@@ -110,6 +110,7 @@ class TurtleImpl:
         self.turtle.setheading(SETHEADING)
         self.turtle.pendown()
         self.turtle.speed(FASTEST_SPEED)
+        self.color("yellow")
         if fill:
             self.turtle.begin_fill()
             self.turtle.circle(radius)

@@ -14,10 +14,10 @@ PIXEL_HEIGHT: int = 800
 def main() -> None:
     """Entrypoint of your graphic drawing. Place all code to be drawn here."""
     screen_setup(PIXEL_WIDTH, PIXEL_HEIGHT)
-    turtle1 = TurtleImpl()
+    alex = TurtleImpl()
     # insert drawing code here
     #
-    #
+    alex.draw_circle(100.0,100.0,100.0)
     #
     done()
     return None
